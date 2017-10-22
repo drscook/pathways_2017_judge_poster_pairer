@@ -1,6 +1,17 @@
 import numpy as np
 import pandas as pd
 import itertools as it
+import copy
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+import seaborn as sns
+from ipywidgets import interact
+
+plt.style.use("fivethirtyeight")
+plt.rc("figure", figsize=(10,5))
+sns.set_palette('deep')
+
+
 
 import IPython.display as ipd
 digits = 3
